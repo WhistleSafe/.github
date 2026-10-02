@@ -5,7 +5,7 @@
 <p align="center">
   <a href="https://whistlesafe.dk"><b>whistlesafe.dk</b></a>
   &nbsp;·&nbsp;
-  <a href="https://app.whistlesafe.dk/pricing">Prøv 30 dage gratis</a>
+  <a href="https://whistlesafe.dk/priser">Prøv 30 dage gratis</a>
   &nbsp;·&nbsp;
   <a href="mailto:kontakt@whistlesafe.dk">kontakt@whistlesafe.dk</a>
   &nbsp;·&nbsp;
@@ -14,84 +14,103 @@
 
 ## Hej, vi er WhistleSafe
 
-WhistleSafe ApS er en dansk, socialøkonomisk virksomhed. Vi laver sikre indberetnings- og
-whistleblowerløsninger og privatlivsvenlig AI til virksomheder, skoler, foreninger og fagfolk med
-tavshedspligt — og alt overskud går til at sikre børn og unges digitale sikkerhed og tryghed.
+WhistleSafe ApS er en dansk, socialøkonomisk virksomhed. Overskuddet går til børn og unges digitale
+sikkerhed. Vi laver whistleblowerordninger til virksomheder, skoler og foreninger, et AI-værksted til
+undervisningen og hjælp til AI og IT på jeres egne præmisser.
 
 ## Det laver vi
 
 ### [WhistleSafe whistleblowerordning](https://whistlesafe.dk)
 
-Siden 17. december 2023 skal alle private virksomheder med 50 eller flere ansatte have en intern
-whistleblowerordning. WhistleSafe er en komplet platform, som er sat op på under 5 minutter:
+Arbejdsgivere med 50 eller flere ansatte skal have en intern whistleblowerordning
+([whistleblowerloven § 9](https://www.retsinformation.dk/eli/lta/2021/1436)). Private arbejdsgivere med
+50–249 ansatte har været omfattet siden 17. december 2023.
 
-- Anonym indberetning fra mobil, tablet og computer — uden konto og uden app
-- Anonym dialog med whistlebloweren via en personlig sags-ID
-- Sagsstyring med sagsbehandlere, prioritet, interne noter og afdelinger
-- EU-direktivets frister indbygget: kvittering inden 7 dage og tilbagemelding inden 3 måneder
-- Hele sagsmapper til revisor og jurist som PDF og ZIP, alle sager som CSV
-- Brugerflade på 8 sprog
+- Der kræves hverken navn, e-mail eller konto for at indberette
+- Sagen følges med et rapport-ID, og I kan skrive sammen med den, der har indberettet, i selve sagen
+  uden at kende navnet
+- Tildeling, prioritet, interne noter, spam-markering og hele sagens historik
+- Fristerne på 7 dage og 3 måneder tælles på hver sag, og du får besked, før en frist udløber
+- En sag kan eksporteres som ZIP med sagen og beskederne som PDF; alle sager som CSV
+- Brugerfladen findes på 8 sprog
 
-**Fra 249 kr./md. ekskl. moms · 30 dage gratis · ingen binding**
+**2.490 kr./år ekskl. moms (svarer til 207,50 kr./md.) · eller 249 kr./md. uden binding · 30 dage
+gratis · samme pris uanset antal ansatte**
 
-### [SafeSpace](https://whistlesafe.dk/safespace) — til skoler
+### [SafeSpace](https://whistlesafe.dk/safespace) — til skoler og foreninger
 
-Et trygt sted, hvor elever kan indberette det, de ikke selv kan håndtere — fx digital mobning,
-krænkelser, sextortion eller ulovlig billeddeling — også anonymt. Skolen får indblik i det mørketal,
-voksne ellers ikke ser. SafeSpace kører på samme platform som whistleblowerordningen.
+Én whistleblowerordning, hvor elever, medlemmer og frivillige får deres egen indgang ved siden af de
+ansattes. Samme platform, pris og tilmelding som WhistleSafe — pr. skole eller forening, uanset antal
+elever, medlemmer eller ansatte.
 
-**349 kr./md. ekskl. moms · ingen binding**
+### [AI-værksted](https://whistlesafe.dk/ai-vaerksted) — til undervisningen
 
-### [Lokal AI](https://whistlesafe.dk/lokalai) — til fagfolk med tavshedspligt
+Eleverne åbner motorhjelmen på en AI – og intet af det, de skriver, forlader skolen. En
+undervisningsportal, hvor eleverne ændrer en AI's instruktioner, giver den værktøjer, kører en agent ét
+trin ad gangen og skriver ned, hvor den fejler. AI'en kører på en boks i skolens bygning, og læreren
+bedømmer afleveringen – aldrig modellen.
 
-En færdigkonfigureret AI-computer, hvor sprogmodellerne kører 100 % lokalt, så patient- og
-klientdata aldrig forlader maskinen. Til psykologer, sundhedsfaglige, advokater, revisorer og andre,
-der arbejder med følsomme oplysninger. Vi leverer maskine, software og modeller klar til brug og
-hjælper jer i gang.
+**Ingen fast pris endnu · book et møde**
 
-**Køb fra 15.000 kr. · leasing fra 995 kr./md. · ekskl. moms**
+### [Digital suverænitet](https://whistlesafe.dk/digital-suveraenitet) — AI og IT på jeres præmisser
+
+Hjælp til AI på arbejdspladsen og til at skifte til Linux, open source og europæiske alternativer.
+AI'en kører på hardware, I selv styrer: jeres egne maskiner, jeres eget datacenter eller en VPS – ikke
+i en offentlig sky.
+
+**Ingen fast pris · book et møde, så får I bagefter et forslag med en pris**
 
 ## Sådan passer vi på data
 
-- Hostet i EU på Microsoft Azure (North Europe) med ISO/IEC 27001-certificeret infrastruktur
-- Data krypteres under transport og i hvile
-- Whistlebloweres identitet knyttes ikke til nogen brugerkonto — adgang sker via virksomhedens
-  anonyme link og sags-ID
-- To-faktor-login, rate-limiting og kontolåsning på manager-konti
-- Alle underdatabehandlere behandler data i EU/EØS — [se listen (PDF)](https://api.whistlesafe.dk/api/Public/sub-processors)
+- Hostet i Microsoft Azure i EU (North Europe, Irland), inden for Microsofts EU-datagrænse
+- Krypteret under overførsel og i hvile (Azure). Azure er ISO/IEC 27001-certificeret — certifikatet er
+  Microsofts, ikke vores
+- IP-adresser fjernes fra logs og telemetri; besked på e-mail er frivillig for den, der indberetter, og
+  adressen vises ikke for dem, der behandler sagen
+- To-faktor-login for dem, der behandler sager
+- Underdatabehandlere: Microsoft Azure, Azure Application Insights, Microsoft Graph/Exchange Online og
+  Stripe. Microsoft behandler data i EU/EØS. Stripe får kun betalingsoplysninger; indberetninger, sager,
+  beskeder, bilag og oplysninger om indberettere sendes aldrig til Stripe. Stripe overfører
+  betalingsoplysningerne til USA under EU-U.S. Data Privacy Framework —
+  [se listen](https://whistlesafe.dk/underdatabehandlere)
 - Databehandleraftalen genereres og accepteres direkte i appen
+- Mere på [whistlesafe.dk/sikkerhed](https://whistlesafe.dk/sikkerhed)
 
 ## Holdet
 
 - **Christian Nedergaard Staal** ([@cstaal](https://github.com/cstaal)) — IT-civilingeniør med
-  speciale i netværk og sikkerhed, 20 års erfaring med IT-drift og .NET-udvikling
-- **David Troutman Madsen** — autoriseret psykolog, stifter af Psykolog- og Lægehuset Dabeco og
-  tilknyttet Medierådet
+  speciale i netværk og sikkerhed, 20 års erfaring med IT-drift og softwareudvikling i .NET
+- **David Troutman Madsen** — autoriseret psykolog, stifter af Psykolog- og Lægehuset Dabeco
 - **Paw Ormstrup Madsen** ([@PawOrmstrupMadsen](https://github.com/PawOrmstrupMadsen)) — Principal
-  Software Engineer, driver udviklingen af platformen
+  Software Engineer, mere end 15 års erfaring med at bygge sikre platforme i .NET
 
 ## Om koden
 
 Platformen er bygget på .NET, ASP.NET Core og Blazor WebAssembly og kører på Azure. Vores
 repositories er private, så der er ikke meget at kigge i her — men vi hører gerne fra andre udviklere.
 
-Har du fundet en sikkerhedsfejl i en af vores tjenester, så skriv til
+Har du fundet en sikkerhedsfejl i en af vores tjenester, så se
+[whistlesafe.dk/sikkerhed](https://whistlesafe.dk/sikkerhed#saarbarheder) og
+[security.txt](https://whistlesafe.dk/.well-known/security.txt), eller skriv til
 [kontakt@whistlesafe.dk](mailto:kontakt@whistlesafe.dk).
 
 <details>
 <summary><b>In English</b></summary>
 <br>
 
-WhistleSafe ApS is a Danish social enterprise: all profit goes to the digital safety and wellbeing of
-children and young people. We build:
+WhistleSafe ApS is a Danish social enterprise: our profit goes to the digital safety of children and
+young people. We build:
 
-- **WhistleSafe** — a complete internal whistleblowing system for organisations covered by the EU
-  Whistleblower Directive (2019/1937): anonymous reporting without accounts, case management, the
-  7-day and 3-month deadlines built in, case exports for auditors and lawyers, and a UI in 8
-  languages. Hosted in the EU on Microsoft Azure.
-- **SafeSpace** — a reporting channel for pupils and students at schools.
-- **Lokal AI** — ready-to-use AI computers where the language models run 100% on-premises, for
-  professionals bound by confidentiality.
+- **WhistleSafe** — an internal whistleblowing system for organisations covered by the Danish
+  Whistleblower Act: reporting without a name, email or account, a report ID to follow the case and
+  write back and forth, case management, the 7-day and 3-month deadlines counted on every case, case
+  exports for auditors and lawyers, and a UI in 8 languages. Hosted in Microsoft Azure in the EU.
+- **SafeSpace** — the same system for schools and associations, with its own entrance for pupils,
+  members and volunteers.
+- **AI-værksted** — a teaching portal where pupils open up an AI, running on a box in the school's
+  building.
+- **Digital sovereignty** — help with AI at work and with moving to Linux, open source and European
+  alternatives, on hardware you control.
 
 Website (Danish): [whistlesafe.dk](https://whistlesafe.dk) · Contact:
 [kontakt@whistlesafe.dk](mailto:kontakt@whistlesafe.dk)
